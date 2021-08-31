@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-color: black;
+  width: 100%;
+}
+
+
+#navbar {
+  position: sticky;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 100px;
+  padding: 0.5rem 5rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  background-color: black;
+}
+.navbar .navbar-brand {
+  font-size: 25px;
+  font-weight: 800px;
+  color: chartreuse !important;
+}
+#navbarSupportedContent a {
+  color: white;
+  border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover {
+  border-bottom: 2px solid chartreuse;
+}
+#navbarSupportedContent button {
+  background-color: chartreuse;
+  border-radius: 7px;
+  width: 5rem;
+}
+#home {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.backimg {
+  background-image: url("./images/WhatsApp\ Image\ 2021-08-29\ at\ 12.42.43\ PM.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: chartreuse;
+  font-size: 100%;
+}
+
+/**Home***/
+#home h1 {
+ 
+  letter-spacing: 3px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 0px 1px 0px #ccc, 0px 2px 0px #ccc, 0px 3px 0px #ccc,
+    0px 4px 0px #ccc;
+}
+#email {
+  margin-bottom: 100pxpx;
+  margin-left: 30px;
+}
+#home p {
+  font-size: 18px;
+  color: white;
+}
+#home .input-group {
+  width: 40%;
+  height: 45px;
+  margin-bottom: 20px;
+}
+.signin {
+  background-color: green !important;
+  color: white;
+  box-shadow: 2px 4px5px rgba(0, 0, 0, 0.3);
+}
+
+.card1{
+  margin-top: -4px;
+}
+@media only screen and (max-width: 800px) {
+  #reponsive {
+      display: block;
+  }
+  #normal{
+      display: none;
+  }
+}
+
